@@ -13,7 +13,7 @@ let gateaux = [
     <Navbar/>
   </header>
   <main>
-    <div class="container h-10">
+    <div class="container">
     <Banner/>
     </div>
     <div class="container mt-4">
@@ -27,7 +27,9 @@ let gateaux = [
     </div>
   </main>
   <footer>
-
+  <div class="container text-center mt-4 mb-4 border-top border-dark p-2" style="background-color: #f8f9fa;">
+    horaires : 7h-20h du lundi au samedi
+  </div>
   </footer>
 </template>
 

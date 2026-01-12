@@ -32,4 +32,12 @@
 </template>
 
 <style scoped>
+.banner {
+  height: 50vh;
+  overflow: hidden;
+}
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
 </style>
