@@ -19,7 +19,9 @@ let gateaux = [
     <div class="container mt-4">
       <div class="row">
         <div v-for="gateau in gateaux" :key="gateau" class="col-md-6 mb-4">
-          <card :cardTitle="gateau"/>
+          <card :cardTitle="gateau"
+                card-text="lorem ispum"
+          />
         </div>
       </div>
     </div>
